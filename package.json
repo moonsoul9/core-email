@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-   "start": "node server.js",
+    "start": "node server.js",
     "dev": "node --watch server.js"
   },
   "engines": {
@@ -20,6 +20,6 @@
     "express": "^5.2.1",
     "express-rate-limit": "^8.5.2",
     "helmet": "^8.2.0",
-    "nodemailer": "^9.0.3"
+    "resend": "^6.17.1"
   }
 }
